@@ -1,0 +1,107 @@
+/* Nav */
+.nav-bar {
+	background-color: #fff;
+	position:fixed;
+	width:100%;
+}
+
+.nav-bar ul {
+	font-size: 0;
+	text-align: center;
+}
+
+.nav-bar ul, .nav-bar li {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar li {
+	display: inline-block;
+	list-style: outside none none;
+}
+
+.nav-bar ul li a {
+	color: #3336FF;
+    display: block;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 16px 30px;
+    text-decoration: none !important;
+}
+
+.nav-bar ul li a:hover,
+.nav-bar ul li a.active {
+	color: #bf2c2d;
+	 text-decoration: none;
+}
+
+.nav-bar .mob-btn {
+	display: none;
+}
+
+/* Region */
+.region {
+	position: relative;
+}
+
+.region-mobile {
+	display: inline !important;
+	position: relative;
+}
+.region-dropdown {
+	display: none;
+}
+.region-logged-in .arrow-down {
+	display: none !important;
+}
+.region-logged-in {
+	cursor: default !important;
+}
+
+.region .arrow-down, .region-mobile .arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid white;
+	position: absolute;
+	right: 0;
+}
+
+.region .arrow-down {
+	top: 0.625em;
+}
+
+.region-mobile .arrow-down {
+	top: 0.5em;
+	right: -1em;
+}
+
+.region .fa-globe {
+	padding-right: 0.5em;
+	font-size: 1.125em;
+}
+
+/* New CSS added */
+
+li #dropDown{color: #fff; text-transform: uppercase; font-size: 20px; font-weight: 300; padding: 10px;}
+li #dropDown:hover{color: #bf2c2d;}
+
+.dropdown.open.btn-group .dropdown-menu{ display: block;}
+ul.dropdown-menu li a{color: #bf2c2d !important; padding: 8px 4px;}
+ul.dropdown-menu li a:hover{color: #fff !important; background-color: #bf2c2d !important;}
+.dropdown-menu{ min-width: 12rem !important;}
+
+.nav-bar ul li a:hover {color: #3336FF;	}
+.nav-bar{height: 54px; z-index: 10; font-family: 'Roboto', sans-serif; box-shadow: 2px 0px 12px -3px #3336FF;}
+.nav-bar ul li.pull-right a {font-size: 16px;}
+.nav-bar ul li.pull-left a {text-transform: uppercase;}
+
+.row{margin-right: 0px;}
+.row .col-md-8{margin: 25px; box-shadow: 2px 2px 10px 5px #c0c0c0; margin-top: 80px;}
+.form-control{font-weight: 300;}
+
+li.pull-right .svg-inline--fa{margin-left: 10px;}
+
+.modal-content{font-family: 'Roboto', sans-serif;}
+.btn-primary, .page-item.active .page-link{background: #3336FF; border-color: #3336FF;} 

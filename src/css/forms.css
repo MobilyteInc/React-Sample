@@ -1,0 +1,85 @@
+/* 
+Standard 
+*/
+.form {  } 
+
+.form-inner-wrapper { 
+	/* max-width: 500px; */
+    margin: 20px auto;
+}
+
+.form .input-group-text svg { 
+	margin: 0 auto; 
+}
+
+.form select,
+.form-control, 
+.form ::-webkit-input-placeholder,
+.form ::placeholder {
+  color: #000;
+ } 
+ 
+.form-error { 
+	width: 100%;
+	border-radius: 5px;
+	background: rgba(255,0,0,0.55);
+	float:left;
+	margin: 5px 0 25px;
+	padding: 15px;
+	text-align: center;
+	display: none;
+}
+
+.form-error.show { 
+	display: block;
+}
+
+.form-error span svg { 
+	margin: 0 10px 0 0;
+}
+
+/* Bootstrap */
+.input-group-text { 
+	background: rgba(0, 0, 0, 0.64);
+    border: none;
+	min-width: 50px;
+}
+
+.input-group-text svg { 
+	color: #fff;
+}
+
+.form-group { margin: 30px 0; } 
+
+.form-notification { 
+	width: 300px;
+    height: 50px;
+    background: rgb(98, 8, 14);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+	margin: 10px auto 30px;
+    width: 100%;
+	display: none;
+}
+
+.form-notification-wrapper { 
+	width: 100%; 
+	float: left;
+}
+
+.form-notification span { 
+	margin: 0 0 0 10px;
+}
+
+.form .row { 
+	padding: 0;
+}
+
+.tooltip-arrow,
+.red-tooltip + .tooltip > .tooltip-inner {background: #000 !important;}
+
+		
+
+
+

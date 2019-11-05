@@ -1,0 +1,99 @@
+.login-page { 
+	background: url(https://eaclcdn.blob.core.windows.net/eaclv3/site-images/bgs/bg.png) no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	padding: 40px auto;
+}
+
+/* Login */
+.login-form { 
+	background: rgba(0, 0, 0, 0.8) url(https://eaclcdn.blob.core.windows.net/eaclv3/site-images/bg.png) no-repeat;
+    width: 70%;
+    max-width: 750px;
+    min-width: 480px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.login-title {
+	font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.54);
+	text-shadow: 1px 1px 0px #000;
+}
+	
+	.login-title span { 
+		color: rgb(160, 12, 16);
+	}
+
+    .login-button {
+		padding: 15px;
+		color: #FFF;
+		background-color: rgba(160, 12, 16, 0.60);
+		transform: skew(-15deg);
+		text-align: center;
+		border-radius: 2px;
+		font-size: 1em;
+		border: none;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 1px;
+		width: 70%;
+		margin: 45px auto 25px;
+		display: block;
+		transition: 0.3s;
+	}
+
+        .login-button:hover {
+            background-color: rgb(160, 12, 16);
+        }
+
+		.input-group-prepend { 
+			
+		}
+		
+.login-step {
+    height: auto;
+    float: left;
+    font-size: .9em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.52);
+    border-radius: 10px;
+    margin: 20px 0 25px;
+    padding: 10px 25px;
+}		
+
+.login-step > span { 
+    width: 150px;
+    float: left;
+    clear: both;
+    padding: 10px 0 0;
+    color: rgba(160,12,16);
+    border-left: white;
+    border-right: none;
+    font-size: 1.4em;
+}
+
+.login-step > span > span { 
+	color: #fff;
+}
+
+.login-step p { 
+	 width: 100%;
+    float: left;
+    margin: 10px 0;
+    line-height: 1.6em;
+}
+
+/* Login */
+.login-page .form-inner-wrapper { 
+	padding: 10px 0
+}

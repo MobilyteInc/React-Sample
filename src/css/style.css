@@ -1,0 +1,169 @@
+@import '../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@import 'https://use.fontawesome.com/releases/v5.8.2/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+body { 
+	color: #ffffff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+	margin: 0; padding: 0;
+}
+
+a,a:hover { color: #fff; text-decoration: none; } 
+i.fa { display: none !important; } 
+.switch-wrapper { transition: 0.1s; }
+ 
+/* ::before { display: none !important; } */
+
+
+.page-wrapper { 
+	width: 100%; 	
+} 
+
+section {
+	width: 100%;
+} 
+
+/* FadeIn */
+.fadeIn {
+  animation: .3s fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ 
+/* Loading */
+.loading { 
+	animation: .3s loading;
+	opacity: 0.5;
+}
+
+@keyframes loading { 
+0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+
+.font-audiowide { 
+	font-family: 'Audiowide', sans-serif;
+  font-weight: 400;
+  font-size: 24pt;
+}
+
+
+.table-img{width: 100%; height: auto;}
+:focus {
+  outline: none !important;
+}
+.modal-20w{
+  max-width: 300px
+}
+.img_thumb{width:50px}
+.submenu {
+  padding-left: 55px;
+}
+.wrapper-class {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #D3D3D3;
+  padding: 5px;
+  min-height: 500px;
+}
+
+.p-0{padding: 0 !important} .p-1{padding: 5px !important} .p-2{padding: 10px !important} .p-3{padding: 15px !important}
+.pt-0{padding-top: 0 !important} .pt-1{padding-top: 5px !important} .pt-2{padding-top: 10px !important} .pt-3{padding-top: 15px !important}
+.uploadImg{padding: 10px; text-align: center;}
+.uploadImg +input[type="file"]{visibility: hidden; position: absolute;}
+.uploadfileName {
+  border: 1px solid #ccc;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  position: relative;
+  padding-right: 45px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.uploadfileName i { position: absolute; top:0; right: 0; font-size: 14px; color: #fff; padding:3px 5px; width: 42px; text-align: center; cursor: pointer; }
+.loader { position: fixed; height: 100%; width: 100%; background: rgba(0,0,0,0.2); top: 0; left: 0; z-index: 9999; display: flex; justify-content: center; align-items: center; font-size: 35px; color: #fff; }
+
+.modal-backdrop.fade{opacity: 0.6;}
+.fade.in.modal{opacity: 1;}
+.modal, .modal-dialog{color: #000; top: 5%}
+.modal-header { align-items: center; flex-direction: row-reverse; }
+.modal .form-group{margin: 0 0 15px; }
+/* system admin table style */
+.scrollHori table th, .scrollHori table td{min-width: 120px; word-break: break-all;}
+.scrollHori table th[title="Display Name"], .scrollHori table td:nth-child(4) { min-width: 150px}
+.scrollHori table th[title="Email"], .scrollHori table td:nth-child(5) { min-width: 150px; text-align: left;}
+.scrollHori table th[title="Domain Name"], .scrollHori table td:nth-child(6) { min-width: 150px; text-align: left; }
+.scrollHori table th:last-child, .scrollHori table td:last-child{min-width: 70px; text-align: center}
+.rdw-editor-wrapper{color:#000}
+.SelectDropDown {
+  border: 1px solid #efefef;
+  padding: 5px 15px 5px 3px;
+  margin-bottom: 6px;
+  appearance: menulist-button;
+  -webkit-appearance: menulist-button;
+  -moz-appearance: menulist-button;
+}
+.downlist { list-style: none; padding: 5px; top: 29px; border: 1px solid #efefef; position: absolute; background: #fff;
+  width: 100%; margin: 0; max-height: 125px; overflow: auto; z-index: 3; }
+.downlist li { padding: 2px 0; }
+.bigmodal .modal-dialog{max-width: 800px}
+
+.uploadImage {
+  background: #efefef;
+  border: 1px dashed #999;
+  position: relative;
+  max-width: 140px;
+  max-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.uploadImage i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #999;
+  width: 20px;
+  height: 20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#root{font-family: 'Roboto', sans-serif; }
+
+.uploadImage img{width: 140px;}
+
+.scrollHori table th, .scrollHori table td {
+    min-width: 120px;
+    word-break: break-all;
+}
+.scrollHori table th[title="Domain Name"], .scrollHori table td:nth-child(6) {
+    min-width: 120px;
+    text-align: left;
+}
+.wrapper-class{min-height: 240px;}
+
+@media (min-width: 768px){
+.modal-game-rules .modal-dialog {max-width: 720px;}
+.modal-game-rules .wrapper-class{ min-height: 175px; }
+}
